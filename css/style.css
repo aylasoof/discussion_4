@@ -55,27 +55,16 @@ body{
 
  .gallery {
    display: grid;
-   width: 90%;
-   grid-template-columns: 250px 250px 250px;
+   grid-template-columns: repeat(3, 250px);
    grid-gap: 20px;
    border: dashed 2px black;
-   justify-content: space-between;
- }
-
- .img-coffee1{
-   grid-row:1;
-   grid-column:1;
-   display: auto;
+   width: 90%;
    justify-content: center;
    align-items: center;
  }
 
- .img-coffee2{
-   grid-row:1;
-   grid-column:2;
-   display: auto;
-   justify-content: center;
-   align-items: center;
+ .gallery img {
+   width: 250px;
  }
 
  
